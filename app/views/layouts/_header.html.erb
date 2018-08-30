@@ -7,17 +7,17 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="/">
 				Kids Quiz!<small>(子供のためにクイズを作成しよう！)　　　</small>
 			</a>
 		</div>
 		
 		<div class="collapse navbar-collapse" id="navbarEexample7">
 			<ul class="nav navbar-nav">
-				<li><a href="#">Kids Quizについて</a></li>
+				<li><%= link_to "Kids Quizについて", about_path %></li>
 				<!--<li class="active">-->
-				<li><a href="#">使い方</a></li> <!--helpのこと-->
-				<li><a href="#">お問い合わせ</a></li>
+				<li><%= link_to "使い方", help_path %></li>
+				<li><%= link_to "お問い合わせ", contact_path %></li>
 			</ul>
 			<p class="navbar-text navbar-right">
 			  <a href="#" class="navbar-link">会員登録</a>

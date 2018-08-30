@@ -7,4 +7,13 @@ class StaticPagesController < ApplicationController
   
   def about
   end
+  
+  def contact
+  end
+  
+  def termsandconditions
+  end
+  
+  def others
+  end
 end
